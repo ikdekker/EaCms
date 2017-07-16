@@ -1,0 +1,21 @@
+{
+    "name": "nickdekker/eacms",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Dekker",
+            "email": "nick@freshcoders.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "EaCms\\": "core/"
+        }
+    },
+    "require": {
+        "webmozart/json": "dev-master"
+    }
+}
+
