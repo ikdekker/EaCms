@@ -59,9 +59,15 @@ class EaCore {
     }
 
     public function init() {
+        $factory = CoreFactory::getInstance();
+        $dbCon = $factory->get('db-connector');
+        
         $pageLoader = new PageLoader($this);
 	$pageLoader->load("page.phtml", true);
+        $userMng = new UserManage(); // @todo refactor to factory singleton
+        $userMng->addUser('test', 'test');
     }
+
 
     public function initThemes() {
         $themes = ThemeLocator::go();
