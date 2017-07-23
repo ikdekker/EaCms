@@ -15,7 +15,8 @@
         }
     },
     "require": {
-        "webmozart/json": "dev-master"
+        "webmozart/json": "dev-master",
+        "zendframework/zend-crypt": "^3.2"
     }
 }
 

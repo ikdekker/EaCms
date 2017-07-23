@@ -1,4 +1,8 @@
 #netbeans ignores
 nbproject/
 
+#composer vendor
 vendor/
+
+#config files
+config/db.ini
