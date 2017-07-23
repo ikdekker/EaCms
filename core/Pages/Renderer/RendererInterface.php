@@ -1,6 +1,6 @@
 <?php 
 
-namespace EaCms\Renderer;
+namespace EaCms\Pages\Renderer;
 
 interface RendererInterface {
     

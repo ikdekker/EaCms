@@ -2,8 +2,12 @@
 
 namespace EaCms;
 
-use EaCms\Pageloading\PageLoader;
+use EaCms\Core\Factory\CoreFactory;
+use EaCms\Core\Management\UserManage;
+use EaCms\Pages\Loading\PageLoader;
 use EaCms\Themes\ThemeLocator;
+
+
 
 /**
  * Core class of the application

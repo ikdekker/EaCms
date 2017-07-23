@@ -2,11 +2,12 @@
 
 namespace EaCms\Themes;
 
-use EaCms\Pageloading\PageLoader;
+use EaCms\Pages\Loading\PageLoader;
+use JsonSchema\Uri\UriRetriever;
 use Webmozart\Json\JsonDecoder;
 use Webmozart\Json\JsonValidator;
 use Webmozart\Json\UriRetriever\LocalUriRetriever;
-use JsonSchema\Uri\UriRetriever;
+use const ROOTPATH;
 
 class ThemeLocator {
     

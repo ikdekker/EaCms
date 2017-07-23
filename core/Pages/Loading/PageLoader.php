@@ -1,8 +1,8 @@
 <?php
 
-namespace EaCms\Pageloading;
+namespace EaCms\Pages\Loading;
 
-use EaCms\Renderer\DefaultRenderer;
+use EaCms\Pages\Renderer\DefaultRenderer;
 
 class PageLoader {
     
