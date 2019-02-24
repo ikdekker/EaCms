@@ -56,7 +56,7 @@ class EaCore {
 
     public function init() {
         $pageLoader = new PageLoader($this);
-	$pageLoader->load("page.phtml", true);
+	//$pageLoader->load("page.phtml", true);
     }
 
     public function initThemes() {
